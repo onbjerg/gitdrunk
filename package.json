@@ -31,5 +31,8 @@
   "homepage": "https://github.com/onbjerg/gitdrunk#readme",
   "devDependencies": {
     "standard": "^5.2.2"
+  },
+  "dependencies": {
+    "shelljs": "^0.5.3"
   }
 }

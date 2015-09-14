@@ -25,7 +25,14 @@ var rules = {
   'rebase': 'I said code and drink, not fuck your repo till it bleeds. Take two shots, you zero.'
 }
 
-shell.exec('git ' + args.join(' '))
+var cmd_string = args.map(function (arg) {
+  if (arg.indexOf(' ') !== -1) {
+    return '"' + arg + '"'
+  }
+  return arg
+}).join(' ')
+
+shell.exec('git ' + cmd_string)
 
 if (rules[subcommand]) {
   console.log(rules[subcommand])

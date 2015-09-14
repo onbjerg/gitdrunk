@@ -1,6 +1,6 @@
 {
   "name": "gitdrunk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the git game that gets you crunk by coding drunk",
   "main": "index.js",
   "scripts": {

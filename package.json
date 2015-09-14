@@ -1,0 +1,32 @@
+{
+  "name": "gitdrunk",
+  "version": "1.0.0",
+  "description": "the git game that gets you crunk by coding drunk",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onbjerg/gitdrunk.git"
+  },
+  "keywords": [
+    "git",
+    "drunk",
+    "drunk",
+    "coding",
+    "programming",
+    "games",
+    "drinking",
+    "game"
+  ],
+  "author": "Oliver Nordbjerg",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/onbjerg/gitdrunk/issues"
+  },
+  "homepage": "https://github.com/onbjerg/gitdrunk#readme",
+  "devDependencies": {
+    "standard": "^5.2.2"
+  }
+}

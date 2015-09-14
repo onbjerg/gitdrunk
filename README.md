@@ -10,3 +10,6 @@ In order to play, just install the game and use ``gitd`` instead of ``git``.
 
 # Well, what are you waiting for?
 Install it using ``npm install -g gitdrunk``. You know you want to.
+
+# Serious business
+Heavily inspired by [gitdrunk.com](http://gitdrunk.com). This just forces me to remember the rules.

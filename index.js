@@ -8,12 +8,6 @@ if (!shell.which('git')) {
 var args = process.argv.splice(2)
 var subcommand = args[0]
 
-process.on('uncaughtException', function () {
-  // Let's just ignore the error
-  // If we don't, then unknown commands from git will
-  // make our script complain
-})
-
 var rules = {
   'clone': 'Chug your drink, you unoriginal, copying, lazy piece of shit!',
   'pull': 'Good for you. You get a pass.',

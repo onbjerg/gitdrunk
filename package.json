@@ -6,6 +6,9 @@
   "scripts": {
     "test": "standard"
   },
+  "bin": {
+    "gitd": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onbjerg/gitdrunk.git"

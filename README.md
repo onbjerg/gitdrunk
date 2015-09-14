@@ -14,4 +14,4 @@ In order to play, just install the game and use ``gitd`` instead of ``git``. All
 Install it using ``npm install -g gitdrunk``. You know you want to.
 
 ### Serious business
-I by [gitdrunk.com](http://gitdrunk.com).
+Influenced by [gitdrunk.com](http://gitdrunk.com).

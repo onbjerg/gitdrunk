@@ -16,7 +16,8 @@ var rules = {
   'push': 'Don\'t do that. Drink two!',
   'revert': 'Take a shot. You suck.',
   'reset': 'Take a shot. You suck.',
-  'rebase': 'I said code and drink, not fuck your repo \'till it bleeds. Take two shots.'
+  'rebase': 'I said code and drink, not fuck your repo \'till it bleeds. Take a shot.',
+  'blame': 'What a team player. Take a drink.'
 }
 
 var cmd_string = args.map(function (arg) {

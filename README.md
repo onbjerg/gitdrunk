@@ -1,4 +1,4 @@
-## ![gitdrunk](http://i.imgur.com/yko8ujD.png)
+![gitdrunk](http://i.imgur.com/yko8ujD.png)
 > "[Break the Ballmer Peak](https://xkcd.com/323/)"
 
 gitdrunk is a git game designed to make you a better developer and alcoholic by coding drunk. Hell, it might even make you a better person.

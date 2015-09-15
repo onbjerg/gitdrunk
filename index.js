@@ -30,5 +30,5 @@ var cmd_string = args.map(function (arg) {
 shell.exec('git ' + cmd_string)
 
 if (rules[subcommand]) {
-  console.log(rules[subcommand])
+  console.log('🍺' + rules[subcommand])
 }

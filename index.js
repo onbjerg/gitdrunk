@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var shell = require('shelljs')
+var colors = require('colors')
 
 if (!shell.which('git')) {
   console.error('gitdrunk requires git.')
@@ -30,5 +31,5 @@ var cmd_string = args.map(function (arg) {
 shell.exec('git ' + cmd_string)
 
 if (rules[subcommand]) {
-  console.log('🍺' + rules[subcommand])
+  console.log(colors.yellow('🍺 ' + rules[subcommand]))
 }
